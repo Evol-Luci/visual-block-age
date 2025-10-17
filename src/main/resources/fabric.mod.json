@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "visualblockage",
+  "version": "${version}",
+  "name": "Visual Block Age",
+  "description": "A client-side mod that allows resource packs to display block age.",
+  "authors": [
+    "vba_dev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/vba_dev/visualblockage",
+    "sources": "https://github.com/vba_dev/visualblockage"
+  },
+  "license": "MIT",
+  "icon": "assets/visualblockage/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.vba_dev.visualblockage.VisualBlockAge"
+    ],
+    "client": [
+      "com.vba_dev.visualblockage.VisualBlockAgeClient"
+    ]
+  },
+  "mixins": [
+    "visualblockage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.23",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "owo-lib": "*"
+  }
+}

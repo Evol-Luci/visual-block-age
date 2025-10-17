@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vba_dev.visualblockage.rendering",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CustomBlockStateProvider",
+    "BlockPlaceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
